@@ -1,0 +1,74 @@
+body {
+    background-color: #36393F;
+}
+
+.title {
+    margin-top: 3rem;
+    color: white;
+    font-family: "Railway", cursive;
+    text-shadow: 5px 5px black;
+    -webkit-user-select: none;       
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: none;
+    font-family: "Railway", cursive;
+    color: white;
+
+    transition: all ease 0.5s;
+}
+
+.start{
+    margin-right: 10%;
+    background-color: green;
+}
+
+.stop {
+    margin-left: 10%;
+    background-color: red;
+}
+
+button:hover {
+    opacity: 0.6;
+    transition: all ease 0.5s;
+}
+
+button:disabled, button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.4;
+}
+
+#download {
+    display: block;
+    cursor: pointer;
+    background-color: blue;
+    margin-top: 2rem;
+    width: 80px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    color: white;
+    font-family: "Railway", cursive;
+    transition: all ease 0.5s;
+    text-decoration:none;
+
+    -webkit-user-select: none;       
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#download:hover {
+    opacity: 0.6;
+    transition: all ease 0.5s;
+}
+
+video {
+    height: 40%;
+    width: 70%;
+}
